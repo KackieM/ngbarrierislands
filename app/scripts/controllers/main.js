@@ -11,10 +11,10 @@ angular.module('ngbarrierislandsApp')
 
     $scope.map = {
     	center: {
-    		latitude: 45,
-    		longitude: -73
+    		latitude: 32.842271,
+    		longitude: -79.860806
     	},
-    	zoom: 8
+    	zoom: 11
     }
 
     $scope.marker = {

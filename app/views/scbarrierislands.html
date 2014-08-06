@@ -17,12 +17,25 @@
 <body>
 
 	<div>
-  <h1>THE BEACH HOUSE</h1>
+  <!-- <h1>THE BEACH HOUSE</h1>
   <p class="lead">
     <img src="images/edistosunset.jpg" alt="Charleston"><br>
     THE EDISTO LIFE
-  </p>
-  <p><a class="btn btn-lg btn-default" ng-href="#">Explore Edisto</a></p>
+  </p> -->
+  <!-- <p><a class="btn btn-lg btn-default" ng-href="#">Explore Edisto</a></p> -->
+
+  <h1>South Carolina Barrier Islands</h1>
+
+<google-map center="map.center" zoom="map.zoom">
+
+  <marker coords="marker.coords"> </marker>
+
+  <marker data-ng-repeat="marker in markerList" coords="marker"> 
+    <window isIconVisibleOnClick="true"> </window>
+    </marker>
+
+</google-map>
+
 </div>
 	
 </body>
