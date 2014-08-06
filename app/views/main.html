@@ -16,7 +16,13 @@
 
 <h1>Angular-Google-Maps by Katherine Mattison</h1>
 
-<google-map center="{latitude: 30, Longitude: -120}" zoom="12">
+<google-map center="map.center" zoom="map.zoom">
+
+  <marker coords="marker.coords"> </marker>
+
+  <marker data-ng-repeat="marker in markerList" coords="marker"> 
+    <window isIconVisibleOnClick="true"> </window>
+    </marker>
 
 </google-map>
 
