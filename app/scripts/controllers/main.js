@@ -12,7 +12,8 @@ angular.module('ngbarrierislandsApp')
     $scope.map = {
     	center: {
     		latitude: 32.842271,
-    		longitude: -79.860806
+    		longitude: -79.860806,
+            message:'Shem Creek - Home of The Iron Yard'
     	},
     	zoom: 8
     }
