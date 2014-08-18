@@ -5,7 +5,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 .angular-google-map-container {
     height: 400px;
     width: 700px;
-    border: 4px solid black;
+    border: 10px solid gray;
 }
 
 .browsehappy {
@@ -16,30 +16,28 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 }
 
 /* Space out content a bit */
-body {
-    // padding-top: 20px;
-    // padding-bottom: 20px;
-    // background-color: #D3D3D3;
-    background-image: url("/images/sand_texture_and-the_sea_198441.jpg");
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: top center !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed;
-}
+// .body {
+//         background-image: url("../images/shemcreekevening8.4.14.jpg");
+//         background-size: cover;
+//         background-attachment: fixed;
+//         -webkit-background-size: cover;
+//         -moz-background-size: cover;
+//         -o-background-size: cover;
+//         margin: 0;
+//         padding: 0;
+//     }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
 .footer {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /* Custom page header */
 .header {
-    border-bottom: 5px solid black;
+    border-bottom: 20px #4A52BB;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -51,6 +49,8 @@ body {
     color: #459300;
     font-style: oblique;
     font-weight: bold;
+    text-shadow: 5px 5px 5px gray;
+    background-color: #4A52BB;
 }
 
 /* Custom page footer */
@@ -58,6 +58,7 @@ body {
     padding-top: 19px;
     color: #777;
     border-top: 1px solid #e5e5e5;
+    text-shadow: 3px 3px 3px gray;
 }
 
 .container-narrow > hr {
@@ -65,19 +66,19 @@ body {
 }
 
 /* Main marketing message and sign up button */
-.jumbotron {
-    text-align: center;
-    border-bottom: 1px solid #39257c;
-}
+// .jumbotron {
+//     text-align: center;
+//     border-bottom: 1px solid #39257c;
+// }
 
-.jumbotron .btn {
-    text-align: center;
-    text-shadow: 5px;
-    font-size: 21px;
-    padding: 14px 24px;
-    color: #39257c;
-    box-shadow: 5px, 5px, 5px, 5px, #777777;
-}
+// .jumbotron .btn {
+//     text-align: pull-right;
+//     text-shadow: 5px;
+//     font-size: 21px;
+//     padding: 14px 24px;
+//     color: #39257c;
+//     box-shadow: 5px 5px 5px 5px, #777777;
+// }
 
 /* Supporting marketing content */
 .marketing {
@@ -91,7 +92,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 4000px;
     }
 
     /* Remove the padding we set earlier */
@@ -122,16 +123,13 @@ body {
         font-family: Arial, Verdana, sans-serif;
 
     }
-    // .btn btn-lg btn-default {
-    //     box-shadow
-        
-    // }
+    
     .h4 {
         color: #034A99;
     }
 
     .h3 {
-        color: dark blue;
+        color: #2A05A1;
 
     }
     
@@ -147,7 +145,7 @@ body {
     .h2 {
         font-style: oblique;
         font-weight: bold;
-        color: navy blue;
+        color: #2A05A1;
     }
 
 
