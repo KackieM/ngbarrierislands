@@ -8,12 +8,12 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     border: 10px solid gray;
 }
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
+// .browsehappy {
+//     margin: 0.2em 0;
+//     background: #ccc;
+//     color: #000;
+//     padding: 0.2em 0;
+// }
 
 /* Space out content a bit */
 // .body {
@@ -28,12 +28,13 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 //     }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-    padding-left: 0px;
-    padding-right: 0px;
-}
+// .header,
+// .marketing,
+// .footer {
+//     padding-left: 0px;
+//     padding-right: 0px;
+//     font-size: 80%;
+// }
 
 /* Custom page header */
 .header {
@@ -41,11 +42,13 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 }
 
 /* Make the masthead heading the same height as the navigation */
-.header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+.header {
+    // margin-top: 0;
+    // margin-bottom: 0;
+    // line-height: 40px;
+    // padding-bottom: 19px;
+    height: 160px;
+    background-image: url("images/steering.jpg");
     color: #459300;
     font-style: oblique;
     font-weight: bold;
@@ -111,28 +114,126 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
         border-bottom: 0;
     }
 }
+    
+
     // STARTING KAT STYLES
 
-    .h1 {
-        color: #0948AD;
+    .header
+    .section
+    .footer
+    .aside
+    .navigation
+    .article
+    .figure
+    .figcaption
+     { 
+        display: block;
 
     }
 
-    .header {
-        // color: 
-        font-family: Arial, Verdana, sans-serif;
+    .body {
+        color: #666666;
+        background-color: #f9f8f6;
+        background-image: url("images/boneyardbeachlynch.jpg");
+        background-position:  center;
+        font-family: Georgia, Times, serif;
+        line-height: 1.4em;
+        margin: 0px;
+    }
 
+    .nav
+    .footer
+    {
+        clear: both;
+        color: #ffffff;
+        background-color: #aeaca8;
+        height: 30px;
     }
     
-    .h4 {
+    .nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 30px;
+    }
+    .nav li {
+        display: inline;
+        margin-right: 40px;
+    }
+    .nav li a {
+        color: #ffffff;
+    }
+    .nav li a:hover, 
+    .nav li a.current {
+        color: #000000;
+    }
+    .section.islands {
+        float: left;
+        width: 659px;
+        border-right: 1px solid #eeeeee;
+    }
+    .article {
+        clear: both;
+        overflow: auto;
+        width: 100%;
+    }
+    .hgroup {
+        margin-top: 40px;
+    }
+    .figure {
+        float: left;
+        width: 290px;
+        height: 220px;
+        padding: 5px;
+        margin: 20px;
+        border: 1px solid #eeeeee;
+    }
+    .figcaption {
+       font-size: 90%;
+       text-align: left;
+    }
+    .aside {
+        width: 230px;
+        float: left;
+        padding: 0px 0px 0px 20px;
+    }
+    .aside section a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #eeeeee;
+    }
+    .aside section a:hover {
+        color: #985d6a;
+        background-color: #efefef;
+    }
+    a {
+        color: #985d6a;
+        text-decoration: none;
+    }
+    .h1
+    .h2
+    .h3 {
+        font-weight: normal;
+    }
+    .h2 {
+        margin: 1-px 0px 5px 0px;
+        padding: 0px;
         color: #034A99;
     }
 
     .h3 {
-        color: #2A05A1;
-
+        margin: 0px 0px 10px 0px;
+        color: #de6581;
     }
-    
+    .aside h2 {
+        padding: 30px 0px 10px 0px;
+        color: #de6581;
+    }
+    .footer {
+        font-size: 80%;
+        padding: 7px 0px 0px 20px;
+    }
+    .h4 {
+        color: #034A99;
+    }
     .a:visited {
         color: black;
     }
