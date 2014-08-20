@@ -25,6 +25,10 @@ angular.module('ngbarrierislandsApp', [
         templateUrl: 'views/history.html',
         controller: 'MainCtrl'
       })
+      .when('/kackie', {
+        templateUrl: 'views/kackie.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

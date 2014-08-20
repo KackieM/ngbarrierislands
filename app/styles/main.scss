@@ -37,23 +37,24 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 // }
 
 /* Custom page header */
-.header {
-    border-bottom: 20px #4A52BB;
-}
+// .header {
+//     border-bottom: 20px #4A52BB;
+// }
 
 /* Make the masthead heading the same height as the navigation */
 .header {
-    // margin-top: 0;
-    // margin-bottom: 0;
-    // line-height: 40px;
-    // padding-bottom: 19px;
-    height: 160px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+    height: 100px;
     background-image: url("images/steering.jpg");
-    color: #459300;
+    color: #eeeeee;
     font-style: oblique;
     font-weight: bold;
-    text-shadow: 5px 5px 5px gray;
-    background-color: #4A52BB;
+    font-size: 125%;
+    text-shadow: 7px 7px 7px gray;
+    background-color: #eeeeee;
 }
 
 /* Custom page footer */
@@ -84,13 +85,13 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 // }
 
 /* Supporting marketing content */
-.marketing {
-    margin: 40px 0;
-}
+// .marketing {
+//     margin: 40px 0;
+// }
 
-.marketing p + h4 {
-    margin-top: 28px;
-}
+// .marketing p + h4 {
+//     margin-top: 28px;
+// }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -104,15 +105,16 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     .footer {
         padding-left: 0;
         padding-right: 0;
+        padding-bottom: 100;
     }
     /* Space out the masthead */
     .header {
         margin-bottom: 50px;
     }
     /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
+    // .jumbotron {
+    //     border-bottom: 0;
+    // }
 }
     
 
@@ -145,11 +147,16 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     .footer
     {
         clear: both;
-        color: #ffffff;
+        color: #177f75;
         background-color: #aeaca8;
         height: 30px;
     }
-    
+    .footer {
+    padding-top: 19px;
+    // color: #777;
+    border-top: 1px solid #e5e5e5;
+    text-shadow: 3px 3px 3px gray;
+}
     .nav ul {
         margin: 0px;
         padding: 5px 0px 5px 30px;
@@ -159,7 +166,8 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
         margin-right: 40px;
     }
     .nav li a {
-        color: #ffffff;
+        color: #105952;
+        background-color: #177F75
     }
     .nav li a:hover, 
     .nav li a.current {
