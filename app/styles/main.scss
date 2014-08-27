@@ -8,8 +8,10 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     border: 10px solid gray;
 }
 
-.html { 
-  background: url(images/steering.jpg) no-repeat center center fixed; 
+.backgroundimage {
+  display: inline-block;
+  background-image: url("images/steering_bg.jpg");
+  background-image: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -35,12 +37,12 @@ header {
     height: 50px;
     width: 1025px;
     background-image: url("images/steering.jpg");
-    color: midnight-blue;
+    color: white;
     font-style: oblique;
     font-weight: bold;
     font-size: 125%;
     text-shadow: 7px 7px 7px gray;
-    background-color: greensea;
+    background-color: silver;
 }
 
 /* Custom page footer */
@@ -153,7 +155,7 @@ footer {
     }
     .nav li a {
         color: #105952;
-        background-color: #177F75
+        background-color: lavender
     }
     .nav li a:hover, 
     .nav li a.current {
