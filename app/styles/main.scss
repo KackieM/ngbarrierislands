@@ -8,16 +8,16 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     border: 10px solid gray;
 }
 
-.backgroundimage {
-  display: inline-block;
-  background-image: url("images/steering_bg.jpg");
-  background-image: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-}
+// .backgroundimage {
+//   display: inline-block;
+//   background-image: url("../images/steering_bg.jpg");
+//   background-image: no-repeat;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   background-attachment: fixed;
+// }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .marketing {
@@ -25,6 +25,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     padding-right: 0px;
     font-size: 80%;
 }
+
 
 /* Make the masthead heading the same height as the navigation */
 header {
@@ -36,7 +37,7 @@ header {
     padding-right: 0px;
     height: 50px;
     width: 1025px;
-    background-image: url("images/steering.jpg");
+    background-image: url("../images/steering.jpg");
     color: white;
     font-style: oblique;
     font-weight: bold;
@@ -253,4 +254,7 @@ footer {
     }
 
 
-
+body {
+    background: url("../images/steering_bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
