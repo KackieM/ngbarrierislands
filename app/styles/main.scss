@@ -4,20 +4,10 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 .angular-google-map-container {
     height: 400px;
-    width: 700px;
+    width: 1000px;
     border: 10px solid gray;
 }
 
-// .backgroundimage {
-//   display: inline-block;
-//   background-image: url("../images/steering_bg.jpg");
-//   background-image: no-repeat;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   background-attachment: fixed;
-// }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .marketing {
@@ -37,13 +27,11 @@ header {
     padding-right: 0px;
     height: 50px;
     width: 1025px;
-    background-image: url("../images/steering.jpg");
     color: white;
     font-style: oblique;
     font-weight: bold;
     font-size: 125%;
     text-shadow: 7px 7px 7px gray;
-    background-color: silver;
 }
 
 /* Custom page footer */
