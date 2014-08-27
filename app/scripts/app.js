@@ -13,8 +13,8 @@ angular.module('ngbarrierislandsApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/activities', {
-        templateUrl: 'views/activities.html',
+      .when('/postcards', {
+        templateUrl: 'views/postcards.html',
         controller: 'MainCtrl'
       })
       .when('/scbarrierislands', {
@@ -25,8 +25,8 @@ angular.module('ngbarrierislandsApp', [
         templateUrl: 'views/history.html',
         controller: 'MainCtrl'
       })
-      .when('/kackie', {
-        templateUrl: 'views/kackie.html',
+      .when('/edisto', {
+        templateUrl: 'views/edisto.html',
         controller: 'MainCtrl'
       })
       .otherwise({
