@@ -173,16 +173,17 @@ footer {
     }
     .figure {
         float: right;
-        width: 290px;
-        height: 220px;
-        padding: 10px;
+        width: 340px;
+        height: 250px;
+        padding: 20px;
         margin: 20px;
-        border: 5px solid #eeeeee;
+        // border: 5px solid #eeeeee;
     }
     .figcaption {
-       font-size: 90%;
+       font-size: 100%;
        font-family: helvetica;
        text-align: bottom;
+       text-color: black;
     }
     aside {
         width: 230px;
