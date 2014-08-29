@@ -108,7 +108,7 @@ footer {
 
     }
 
-    .body {
+    body {
         color: #666666;
         background-color: #f9f8f6;
         background-image: url("images/boneyardbeachlynch.jpg");
@@ -131,10 +131,11 @@ footer {
         width: 750px;
     }
     .footer {
-    padding-top: 19px;
+        padding-top: 19px;
     // color: #777;
     border-top: 1px solid #e5e5e5;
     text-shadow: 3px 3px 3px gray;
+    font-family: helvetica;
 }
     .nav ul {
         margin: 0px;
@@ -146,7 +147,9 @@ footer {
     }
     .nav li a {
         color: #105952;
-        background-color: lavender
+        background-color: lavender;
+        font-size: 16px;
+        font-family: helvetica;
     }
     .nav li a:hover, 
     .nav li a.current {
@@ -157,10 +160,13 @@ footer {
         width: 659px;
         border-right: 1px solid #eeeeee;
     }
-    .article {
+    article {
         clear: both;
         overflow: auto;
         width: 100%;
+        font-family: helvetica;
+        font-size: 20px;
+
     }
     .hgroup {
         margin-top: 40px;
@@ -171,23 +177,24 @@ footer {
         height: 220px;
         padding: 5px;
         margin: 20px;
-        border: 1px solid #eeeeee;
+        border: 5px solid #eeeeee;
     }
-    .figcaption {
+    figcaption {
        font-size: 90%;
-       text-align: left;
+       font-family: helvetica;
+       text-align: bottom;
     }
-    .aside {
+    aside {
         width: 230px;
         float: left;
         padding: 0px 0px 0px 20px;
     }
-    .aside section a {
+    aside section a {
         display: block;
         padding: 10px;
         border-bottom: 1px solid #eeeeee;
     }
-    .aside section a:hover {
+    aside section a:hover {
         color: #985d6a;
         background-color: #efefef;
     }
@@ -195,56 +202,63 @@ footer {
         color: #985d6a;
         text-decoration: none;
     }
-    .h1
-    .h2
-    .h3 {
+    h1
+    h2
+    h3 {
         font-weight: normal;
+        font-family: helvetica;
     }
-    .h2 {
+    h2 {
         margin: 1-px 0px 5px 0px;
         padding: 0px;
         color: #034A99;
+        font-family: helvetica;
     }
 
-    .h3 {
+    h3 {
         margin: 0px 0px 10px 0px;
         color: #de6581;
         font-style: oblique;
         text-shadow: 3px 3px 3px gray;
+        font-family: helvetica;
     }
-    .aside h2 {
+    aside h2 {
         padding: 30px 0px 10px 0px;
         color: #de6581;
     }
-    .p {
+    p {
         font-weight: bold;
-        font-style: oblique;
-        font-size: 18px;
+        // font-style: oblique;
+        font-size: 20px;
+        font-family: helvetica;
+        color: black;
     }
-    .footer {
+    footer {
         font-size: 80%;
         padding: 7px 0px 0px 20px;
     }
-    .h4 {
+    h4 {
         color: #034A99;
+        font-family: helvetica;
     }
-    .a:visited {
+    a:visited {
         color: black;
     }
 
-    .a:hover {
+    a:hover {
         color: dark blue;
 
     }
 
-    .h2 {
+    h2 {
         font-style: oblique;
         font-weight: bold;
         color: #2A05A1;
+        font-family: helvetica;
     }
 
 
-body {
-    background: url("../images/steering_bg.jpg") no-repeat center center fixed;
-    background-size: cover;
-}
+    body {
+        background: url("../images/steering_bg.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
