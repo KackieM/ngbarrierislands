@@ -130,13 +130,13 @@ footer {
         height: 30px;
         width: 750px;
     }
-    .footer {
-        padding-top: 19px;
-    // color: #777;
-    border-top: 1px solid #e5e5e5;
-    text-shadow: 3px 3px 3px gray;
-    font-family: helvetica;
-}
+//     footer {
+//     padding-top: 19px;
+//     color: #777;
+//     border-top: 1px solid #e5e5e5;
+//     text-shadow: 3px 3px 3px gray;
+//     font-family: helvetica;
+// }
     .nav ul {
         margin: 0px;
         padding: 5px 0px 5px 30px;
@@ -172,14 +172,14 @@ footer {
         margin-top: 40px;
     }
     .figure {
-        float: left;
+        float: right;
         width: 290px;
         height: 220px;
-        padding: 5px;
+        padding: 10px;
         margin: 20px;
         border: 5px solid #eeeeee;
     }
-    figcaption {
+    .figcaption {
        font-size: 90%;
        font-family: helvetica;
        text-align: bottom;
@@ -209,22 +209,28 @@ footer {
         font-family: helvetica;
     }
     h2 {
-        margin: 1-px 0px 5px 0px;
-        padding: 0px;
-        color: #034A99;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: extended;
         font-family: helvetica;
+        color: black;
+        margin: 1px 0px 5px 0px;
+        
     }
 
     h3 {
-        margin: 0px 0px 10px 0px;
-        color: #de6581;
-        font-style: oblique;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: extended;
+        font-family: helvetica;
+        color: black;
+        margin: 1px 0px 5px 0px;
         text-shadow: 3px 3px 3px gray;
         font-family: helvetica;
     }
     aside h2 {
         padding: 30px 0px 10px 0px;
-        color: #de6581;
+        color: black;
     }
     p {
         font-weight: bold;
@@ -250,15 +256,11 @@ footer {
 
     }
 
-    h2 {
-        font-style: oblique;
-        font-weight: bold;
-        color: #2A05A1;
-        font-family: helvetica;
-    }
+
 
 
     body {
         background: url("../images/steering_bg.jpg") no-repeat center center fixed;
         background-size: cover;
+
     }
