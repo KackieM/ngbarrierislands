@@ -29,6 +29,10 @@ angular.module('ngbarrierislandsApp', [
         templateUrl: 'views/edisto.html',
         controller: 'MainCtrl'
       })
+      .when('/practice', {
+        templateUrl: 'views/practice.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
