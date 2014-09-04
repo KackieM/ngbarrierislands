@@ -45,8 +45,9 @@ footer {
     font-family: 'Tangerine', helvetica;
 }
 
-.container-narrow > hr {
+.container {
     margin: 30px 0;
+    position: center;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -176,7 +177,6 @@ footer {
     h1
     h2
     h3 
-    .p
         {
         font-weight: normal;
         font-family: 'Tangerine', helvetica, sans-serif;
@@ -190,9 +190,11 @@ footer {
 
     p {
         font-weight: bold;
-        font-size: 20px;
-        font-family: helvetica;
+        font-size: 4rem;
+        font-family: 'Tangerine', helvetica;
         color: black;
+        padding: 10px;
+        text-align: center;
     }
     footer {
         font-size: 3rem;
@@ -207,6 +209,9 @@ footer {
         color: dark blue;
 
     }
+    a {
+
+    }
 
     .image {
         background-image: url("../images/steering_bg.jpg");
@@ -214,6 +219,15 @@ footer {
 
 
 // Home Page Styling - DO I NEED TO CREATE ITS OWN CSS SHEET FOR IT?
+
+    .btn .btn-lrg {
+        position: fixed;
+        position: center;
+    }
+
+
+    .text-box
+
 
     .content-left {
         position: fixed;
