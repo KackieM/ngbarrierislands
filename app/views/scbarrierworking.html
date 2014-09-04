@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SC BARRIER ISLANDS PAGE</title>
+	<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class=""><a ng-href="#/main">Experience</a></li>
+    <li><a ng-href="#/history">History</a></li>
+    <li><a ng-href="#">Barrier Islands</a></li>
+    <li><a ng-href="#/postcards">Postcards</a></li>
+    <li><a ng-href="#/edisto">Edisto</a></li>
+  </ul>
+  <h3 class="text-muted"><a ng-href="#/scbarrierislands">SC Barrier Islands</a></h3>
+</div>
+</head>
+<body>
+
+	<div>
+
+  <h1>South Carolina Barrier Islands</h1>
+
+  <google-map center="map.center" zoom="map.zoom">
+
+  <marker coords="marker.coords"> </marker>
+
+  <marker data-ng-repeat="marker in markerList" coords="marker"> 
+    <window isIconVisibleOnClick="true"> </window>
+    </marker>
+
+</google-map>
+
+</div>
+<br>
+  
+</br>
+
+<h2>Explore a Few of Our Favorite Islands!</h2>
+  <ul>
+
+      <div class="islands">
+        <!-- this is where people start the type query -->
+        <button type="button btn" class="picker selector" value="IOP"><img src="images/iopbeach.jpg" alt="IOP"></button>
+        
+        <button type="button btn" class="picker selector" value="Sullivans"><img src="/images/bullisland.jpg" alt="Sullivans"></button>
+        
+        <button type="button btn" class="picker selector" value="Folly"><img src="/images/boneyardbeachlynch.jpg" alt="Folly"></button>
+        
+        <button type="button btn" class="picker selector" value="Waites"><img src="/images/waties-island.jpg" alt="Waites"></button>
+        
+        <button type="button btn" class="picker selector" value="Edisto"><img src="/images/edistosunset.jpg" alt="Edisto"></button>
+        
+        <button type="button btn" class="picker selector" value="Hilton"><img src="/images/hilton_head.jpg" alt="Hilton Head"></button>
+
+      </div><!--end type slots-->
+
+      </div><!--end row-->
+    </div><!--end container-->
+  </div><!--end hchooser-->
+    <!-- <li><a ng-href="#/history"><h3>Bulls Island</h3></a></li>
+      <p>Bull Island (sometimes recorded as "Bull's Island") is at 4,900 acres (20 km2) the largest of the barrier islands that are part of the refuge.[1] A regular ferry service to Bulls Island is provided by a private charter service at Garris Landing. The Island was the site of a third lighthouse, Bulls Bay Light which was deactivated in 1913 and lost to the sea years ago. The island also has Boneyard Beach, a beach where a forest has been encroached on by the sea.[2]</p>
+    <li><a ng-href="http://www.charlestoncvb.com/beaches/sullivans-island/"><h3>Sullivan's Island</h3></a></li>
+      <p>Sullivan's Island, South Carolina is an American town in Charleston County, South Carolina, at the entrance to Charleston Harbor, with a population was 1,911 at the 2000 United States Census. According to the U.S. Census Bureau, the town has a total area of 3.3 square miles (8.5 km2), of which, 2.4 square miles (6.2 km2) of it is land and 0.9 square miles (2.3 km2) of it (27.11%) is water. The Ben Sawyer Bridge connects Sullivan's Island to Mount Pleasant, South Carolina. A bridge spanning Breach Inlet connects it to Isle of Palms, South Carolina.
+      Sullivan's Island was the site of a major battle of the American Revolution at Fort Sullivan (now Fort Moultrie)[clarification needed] on June 28, 1776. Sullivan's Island was also the point of entry for approximately 40 percent of the enslaved Africans brought to British North America, and has been likened to Ellis Island in New York City, New York.[3] On September 23, 1989, Hurricane Hugo came ashore near Sullivan's Island; few people were prepared for the destruction that followed in its wake. The eye of the hurricane passed directly over Sullivan's Island. The Ben Sawyer Bridge was a casualty of the hurricane. The swing bridge broke free of its locks, and before the storm was over, one end of the bridge was in the water and the other was pointing skyward. Sullivan's Island police chief, Jack Lilien, was the last person to leave the island before the bridge gave way.</p>
+    <li><a ng-href="http://en.wikipedia.org/wiki/Edisto_Island,_South_Carolina"><h3>Fripp Island</h3></a></li>
+      <p>Fripp Island is a 6.546 sq mi (16.954 km²) barrier island located along the Atlantic coast of the lowcountry part of South Carolina. It is approximately 21 miles from Beaufort, 96 miles south of Charleston, and 65 miles north of Savannah, Georgia. Some of the neighboring islands include Hunting Island, St. Helena Island, and Lady's Island. The island mostly serves as a residential vacation resort, but several hundred residents make it their permanent home. It is also the most seaward of the South Carolina Sea Islands. Fripp is renowned for its resort amenities and natural conservation.  Although it has had several names over its history, the island is presently named after Captain Johannes Fripp, a British sailor charged with protecting the Carolina colony from Spanish attacks. Local folklore and dedicated history have long suspected Fripp to be the location where the pirate Blackbeard had stowed away some of his treasures and bounty. Due to its relatively remote location, the island was utilized primarily as a private hunting range for most of its history. In the mid-20th century, completion of bridges connecting Beaufort with nearby Hunting Island State Park, investors looked to develop a residential resort community on Fripp. Upon securing bonds and establishing a public service district, a bridge was built in 1961 that connected Fripp with Hunting Island, U.S. Highway 21, and nearby Beaufort and began to stimulate residential development. Within 10 years, developers had built the Ocean Point Golf Links, a Racquet Club for tennis, a marina, and a variety of homes and condominium units that would serve as the benchmark for development for the next thirty years.</p>
+    <li><a ng-href="http://en.wikipedia.org/wiki/Edisto_Island,_South_Carolina"><h3>Edisto Island</h3></a></li>
+      <p>Indigenous peoples often had fishing camps on the islands, using them seasonally. The historic Edisto people are known to have occupied the island as well as mainland areas and traded with the upcountry Catawba.[3] The sub-tribe became extinct during the colonial period. The Wassamassaw Tribe of Varnertown Indians is a group of descendants of various tribes who intermarried and who have occupied a settlement between Summerville and Moncks Corner in Berkeley County, South Carolina. In 2005 they gained state recognition as an Indian group, one of six tribes to do so.[3][4]
+      The first tracts of land, called plantations, were granted on Edisto Island before 1700. Landowners first harvested timber and deerskins, planted indigo and some rice, and kept herds of free-ranging cattle to produce hides for the European market and salt beef for Caribbean plantations. Cotton gradually became the principal crop, and after the American Revolution, Edisto Island planters became wealthy and famous from their production of long-staple Sea Island cotton. The labor done by hundreds of enslaved Africans who developed the creole Gullah language and culture on the islands and in the Lowcountry, distinctive for its African traditions.
+      Since the twentieth century, the island has been redeveloped for use as a tourist destination and resorts, although some private plantations remain.</p>
+    <li><a ng-href="http://www.hiltonheadisland.org/about-the-island/"><h3>Hilton Head</h3></a></li>
+      <p>Hilton Head Island, sometimes referred to as simply Hilton Head, is a Lowcountry resort town located on an island of the same name in Beaufort County, South Carolina, United States. It is 20 miles (32 km) northeast of Savannah, Georgia, and 95 miles (153 km) southwest of Charleston. The island gets its name from Captain William Hilton. In 1663, Hilton identified a headland near the entrance to Port Royal Sound, which he named "Hilton's Head" after himself. The island features 12 miles (19 km) of beachfront on the Atlantic Ocean and is a popular vacation destination. In 2004, an estimated 2.25 million visitors pumped more than $1.5 billion into the local economy.[3] The year-round population was 37,099 at the 2010 census,[4] although during the peak of summer vacation season the population can swell to 275,000.[5] Over the past decade, the island's population growth rate was 32%.[6] Hilton Head Island is a primary city within the Hilton Head Island-Bluffton-Beaufort, SC Metropolitan Statistical Area.
+      The island has a rich history that started with seasonal occupation by native Americans thousands of years ago, and continued with European exploration and the Sea Island Cotton trade. It became an important base of operations for the Union blockade of the Southern ports during the Civil War. Once the island fell to Union troops, hundreds of ex-slaves flocked to Hilton Head, which is still home to many "native islanders", many of whom are descendants of freed slaves known as the Gullah (or Geechee) who have managed to hold onto much of their ethnic and cultural identity.[7]</p>
+    <li><a ng-href="http://www.charlestoncvb.com/beaches/isle-of-palms/"><h3>Isle of Palms</h3></a></li>
+      <p>Isle of Palms is a city in Charleston County, South Carolina, United States. As of the 2010 census, the population on the island was 4,133. Isle of Palms is a barrier island on the South Carolina coast. As defined by the U.S. Office of Management and Budget, and used by the U.S. Census Bureau for statistical purposes only, Isle of Palms is included within the Charleston-North Charleston-Summerville metropolitan area and the Charleston-North Charleston Urbanized Area. The town lies along a narrow strip of land, hugging the beach, separated from the mainland by the Intracoastal Waterway. It is an affluent community of both vacation home owners and year-round residents, with large beachfront homes, resorts, and local restaurants. Beach volleyball is popular in the summer, and the "Windjammer" club hosts several tournaments throughout the year.</p>
+    <li><a ng-href="http://www.hiltonheadisland.org/daufuskie-island/"><h3>Daufuskie Island</h3></a></li>
+      <p>The island's recorded history traces back to Pre Revolutionary War times. It was the site of a skirmish called the "Daufuskie Fight" during the Yemassee War of 1715–1717. The island was home to a sizable population of Gullah inhabitants from the end of the Civil War until very recently. Gullah are the descendants of freed slaves. The 1988 Jimmy Buffett song, "The Prince Of Tides" laments the urbanization of the island and loss of the Gullah.[citation needed]The song can be found on Jimmy Buffett's album, "Hot Water." The 1972 Pat Conroy book The Water is Wide was set on Daufuskie, fictionalized as "Yamacraw Island." The book recounts Mr. Conroy's experiences teaching on the island in the 1960s.
+      The Daufuskie Island Historical Foundation (www.daufuskieislandhistoricalfoundation.org) has a museum with historical artifacts of the island as well as a display with information about the Gullah history of the island.</p>
+    <li><a ng-href="http://www.follybeach.com/"><h3>Folly Beach</h3></a></li>
+      <p>Folly Beach is a city, located on historic Folly Island, in Charleston County, South Carolina, United States. The population was 2,117 at the 2000 census. As defined by the U.S. Office of Management and Budget, and used by the U.S. Census Bureau for statistical purposes only, Folly Beach is included within the Charleston-North Charleston-Summerville metropolitan area and the Charleston-North Charleston Urbanized Area.</p>
+ -->
+<div class="footer">
+  <p><a href="http://katherinemattison.com"><span class="glyphicon glyphicon-eye-open"></span> THEKACKIEPROJECT</a></p>
+</div>
+<!-- </div> .wrapper -->
+</body>
+</html>
