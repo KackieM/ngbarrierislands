@@ -13,7 +13,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 .marketing {
     padding-left: 0px;
     padding-right: 0px;
-    font-size: 80%;
+    font-size: 3rem;
 }
 
 
@@ -28,10 +28,10 @@ header {
     height: 50px;
     width: 1025px;
     color: white;
-    font-family: helvetica;
+    font-family: 'Tangerine', helvetica;
     font-style: oblique;
     font-weight: bold;
-    font-size: 125%;
+    font-size: 4rem;
     text-shadow: 7px 7px 7px gray;
 }
 
@@ -41,8 +41,8 @@ footer {
     color: #777;
     border-top: 1px solid #e5e5e5;
     text-shadow: 3px 3px 3px gray;
-    font-size: 80%;
-    font-family: helvetica;
+    font-size: 3rem;
+    font-family: 'Tangerine', helvetica;
 }
 
 .container-narrow > hr {
@@ -76,7 +76,6 @@ footer {
     .header
     .section
     .footer
-    .aside
     .navigation
     .article
     .figure
@@ -91,7 +90,7 @@ footer {
         background: url("../images/steering_bg.jpg") no-repeat center center fixed;
         background-size: cover;
         background-position:  center;
-        font-family: helvetica, Georgia, Times, sans-serif;
+        font-family: 'Tangerine', helvetica, Georgia, Times, sans-serif;
         line-height: 1.4em;
         margin: 0px;
         width: 750;
@@ -108,22 +107,26 @@ footer {
         padding-top: 20px;
         padding-bottom: 20px;
         text-shadow: 3px 3px 3px gray;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Tangerine', sans-serif;
     }
 
-    .nav ul {
-        margin: 0px;
-        padding: 5px 0px 5px 30px;
-    }
+    // .nav ul {
+    //     margin: 0px;
+    //     padding: 5px 0px 5px 30px;
+    // }
     .nav li {
         display: inline;
         margin-right: 40px;
     }
+
+    // VERY IMPORTANT TO REMEMBER - BELOW STYLES THE NAV
     .nav li a {
         color: #105952;
-        background-color: lavender;
-        font-size: 16px;
-        font-family: helvetica;
+        // VERY IMPORTANT - THIS IS PERFECT FONT SIZE FOR NAV AND HEADER
+        // ANYTHING ELSE MUST BE LOWER THAN 40PX
+        font-size: 40px;
+        font-family: 'Tangerine', helvetica;
+        font-weight: bold;
     }
     .nav li a:hover, 
     .nav li a.current {
@@ -138,7 +141,7 @@ footer {
         clear: both;
         overflow: auto;
         width: 100%;
-        font-family: helvetica;
+        font-family: 'Tangerine', helvetica;
         font-size: 20px;
 
     }
@@ -151,77 +154,53 @@ footer {
         margin: 20px;
         // border: 5px solid #eeeeee;
     }
+
+    fig-img {
+
+    }
     figcaption {
-       font-size: 2rem;
-       font-family: helvetica;
+       font-size: 4rem;
+       font-family: 'Tangerine', helvetica;
        text-align: bottom;
        color: black;
+       font-weight: bold;
+       padding-top: 30px;
+       padding-bottom: 30px;
     }
-    aside {
-        width: 230px;
-        float: left;
-        padding: 0px 0px 0px 20px;
-    }
-    aside section a {
-        display: block;
-        padding: 10px;
-        border-bottom: 1px solid #eeeeee;
-    }
-    aside section a:hover {
-        color: #985d6a;
-        background-color: #efefef;
-    }
+    
     a {
         color: #985d6a;
         text-decoration: none;
+
     }
     h1
     h2
-    h3 {
+    h3 
+    .p
+        {
         font-weight: normal;
-        font-family: 'Raleway', sans-serif;;
-    }
-    h2 {
-        font-weight: bold;
+        font-family: 'Tangerine', helvetica, sans-serif;
         font-style: normal;
         font-stretch: extended;
-        font-family: helvetica;
         color: black;
+        text-shadow: 3px 3px 3px gray;
         margin: 1px 0px 5px 0px;
-        
+ 
     }
 
-    h3 {
-        font-weight: bold;
-        font-style: normal;
-        font-stretch: extended;
-        font-family: helvetica;
-        color: black;
-        margin: 1px 0px 5px 0px;
-        text-shadow: 3px 3px 3px gray;
-        font-family: helvetica;
-    }
-    aside h2 {
-        padding: 30px 0px 10px 0px;
-        color: black;
-    }
     p {
         font-weight: bold;
-        // font-style: oblique;
         font-size: 20px;
         font-family: helvetica;
         color: black;
     }
     footer {
-        font-size: 80%;
+        font-size: 3rem;
         padding: 7px 0px 0px 20px;
     }
     h4 {
         color: #034A99;
         font-family: helvetica;
-    }
-    a:visited {
-        color: black;
     }
 
     a:hover {
